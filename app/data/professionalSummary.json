@@ -1,0 +1,27 @@
+{
+        "summaryTitle": "Profile Summary",
+        "summaryDetails": "Senior Software Engineer at Accenture specializing in Technology Architecture Solutions.  Have 7 years of experience in diversified fields of Web Application Development / Maintenance. During this career, I have involved in various phases of software development life cycle including Analysis, Design, Development and Testing.",
+        "profileHighlights": [
+            {
+              "heighlight": "Expert in web technologies -web standards, web 2.0, web analytics, web accessibility, web performance optimization, web security, rich Internet application, cross browser compatibility"
+            },
+            {
+              "heighlight": "Expert level experience in HTML, XHTML, CSS, JavaScript, JQuery, ExtJs, Ajax, JSON, Bootstrap and extensive experience in HTML5, CSS3."
+            },
+            {
+              "heighlight": "Extensive experience in Object Oriented Programming."
+            },
+            {
+              "heighlight": "Experience with photo editing tools and turning mockups into pixel-perfect HTML and creating well-organized CSS is a strong plus."
+            },
+            {
+              "heighlight": "Experience in developing high traffic web sites like - www.disneycareers.com and disneyworld.disney.go.com/planning-guides/"
+            },
+            {
+              "heighlight": "Experience working with MEAN stack application." 
+            },
+            {
+              "heighlight": "Experience with procedural scripting languages like ANT, Maven, JavaScript, PHP, BASH." 
+            }
+        ]
+    }

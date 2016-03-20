@@ -1,0 +1,60 @@
+[
+    {
+        "company":"Accenture",
+        "startDate":"October 2015",
+        "endDate":"Present",
+        "assignedRole":"Senior Software Engineer",
+        "project": "Walt Disney Parks and Resorts",
+        "client":"Walt Disney Co.",
+        "roleSummary": "Lead one of the studios that maintain customer-facing applications for Various Parks and Resorts of the Company. ",
+        "roleDescription": [
+            {
+              "description": "Technical lead for a team of 4 to 5 members." 
+            },
+            {
+              "description": "Maintaining various customers facing applications and developing new features for the same. " 
+            },
+            {
+              "description": "Analyzing business requirements." 
+            },
+            {
+              "description": "Estimating modules/enhancements." 
+            },
+            {
+              "description": "Development environment setup" 
+            },
+            {
+              "description": "Perform peer code review."
+            }
+        ]
+    },
+    {
+        "company":"Accenture",
+        "startDate":"October 2015",
+        "endDate":"Present",
+        "assignedRole":"Senior Software Engineer",
+        "project": "Walt Disney Parks and Resorts",
+        "client":"Walt Disney Co.",
+        "roleSummary": "Lead one of the studios that maintain customer-facing applications for Various Parks and Resorts of the Company. ",
+        "roleDescription":[
+            {
+              "description": "Technical lead for a team of 4 to 5 members." 
+            },
+            {
+              "description": "Maintaining various customers facing applications and developing new features for the same. " 
+            },
+            {
+              "description": "Analyzing business requirements." 
+            },
+            {
+              "description": "Estimating modules/enhancements." 
+            },
+            {
+              "description": "Development environment setup" 
+            },
+            {
+              "description": "Perform peer code review."
+            }
+        ]
+    }
+  ]
