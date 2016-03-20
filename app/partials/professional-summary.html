@@ -1,0 +1,15 @@
+<article>
+<div class="sectionTitle">
+  <h1>{{professionalSummary.summaryTitle}}</h1>
+</div>
+
+<div class="sectionContent">
+  <p>{{professionalSummary.summaryDetails}}</p>
+</div>
+<ul>
+  <li ng-repeat="hglt in professionalSummary.profileHighlights">
+     {{hglt.heighlight}}
+  </li>
+</ul>    
+</article>
+<div class="clear"></div>

@@ -1,0 +1,19 @@
+<div class="sectionTitle">
+  <h1>Work Experience</h1>
+</div>
+
+<div class="sectionContent">
+  <article ng-repeat="experience in workExperience">
+    <h2>{{experience.company}}</h2><p class="subDetails">{{experience.startDate}} - {{experience.endDate}}</p>
+    <ul class="subTitle">
+      <li>Assigned Role:<span> Senior Software Engineer</span></li>
+      <li>Project: Walt Disney Parks and Resorts</li>
+      <li>Client: Walt Disney Co.</li>
+    </ul>
+    <p>{{experience.roleSummary}}</p>
+    <ul>
+      <li ng-repeat="role in experience.roleDescription">{{role.description}}</li>
+    </ul>
+  </article>
+</div>
+<div class="clear"></div>

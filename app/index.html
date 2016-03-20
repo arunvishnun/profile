@@ -9,106 +9,14 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="js/controllers.js"></script>
   </head>
-
   <body id="top">
     <div id="cv" class="instaFade">
-      <div class="mainDetails">
-        <div id="headshot" class="quickFade">
-          <img src="img/profile-pic.jpg" alt="{{personalDetails.firstName}}" />
-        </div>
-        
-        <div id="name">
-          <h1 class="quickFade delayTwo">{{personalDetails.firstName}}</h1>
-          <h2 class="quickFade delayThree">{{personalDetails.jobTitle}}</h2>
-        </div>
-        
-        <div id="contactDetails" class="quickFade delayFour">
-          <ul>
-            <li>email: <a href="mailto:{{personalDetails.email}}" target="_blank">{{personalDetails.email}}</a></li>
-            <li>website: <a href="http://www.arunvishnun.com">www.arunvishnun.com</a></li>
-            <li>phone: {{personalDetails.phone}}</li>
-          </ul>
-        </div>
-        <div class="clear"></div>
-      </div>
-      
+      <div class="mainDetails" ng-include="'partials/personal-details.html'"></div>
       <div id="mainArea" class="quickFade delayFive">
-        <section>
-          <article>
-            <div class="sectionTitle">
-              <h1>{{professionalSummary.summaryTitle}}</h1>
-            </div>
-            
-            <div class="sectionContent">
-              <p>{{professionalSummary.summaryDetails}}</p>
-            </div>
-            <ul>
-              <li ng-repeat="hglt in professionalSummary.profileHighlights">
-                 {{hglt.heighlight}}
-              </li>
-            </ul>    
-          </article>
-          <div class="clear"></div>
-        </section>
-            
-        <section>
-          <div class="sectionTitle">
-            <h1>Work Experience</h1>
-          </div>
-          
-          <div class="sectionContent">
-            <article ng-repeat="experience in workExperience">
-              <h2>{{experience.company}}</h2><p class="subDetails">{{experience.startDate}} - {{experience.endDate}}</p>
-              <ul class="subTitle">
-                <li>Assigned Role:<span> Senior Software Engineer</span></li>
-                <li>Project: Walt Disney Parks and Resorts</li>
-                <li>Client: Walt Disney Co.</li>
-              </ul>
-              <p>{{experience.roleSummary}}</p>
-              <ul>
-                <li ng-repeat="role in experience.roleDescription">{{role.description}}</li>
-              </ul>
-            </article>
-          </div>
-          <div class="clear"></div>
-        </section>
-        
-        
-        <section>
-          <div class="sectionTitle">
-            <h1>Key Skills</h1>
-          </div>
-          
-          <div class="sectionContent">
-            <ul class="keySkills">
-              <li ng-repeat="skill in skills">{{skill.skill}}</li>
-            </ul>
-          </div>
-          <div class="clear"></div>
-        </section>
-        
-        
-        <section>
-          <div class="sectionTitle">
-            <h1>Education</h1>
-          </div>
-          
-          <div class="sectionContent">
-            <article>
-              <h2>College/University</h2>
-              <p class="subDetails">Qualification</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-            </article>
-            
-            <article>
-              <h2>College/University</h2>
-              <p class="subDetails">Qualification</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-            </article>
-          </div>
-          <div class="clear"></div>
-        </section>
-        
+        <section ng-include="'partials/professional-summary.html'"></section>    
+        <section ng-include="'partials/work-experience.html'"></section>
+        <section ng-include="'partials/skills.html'"></section>
+        <section ng-include="'partials/education.html'"></section>
       </div>
     </div>
   </body>
