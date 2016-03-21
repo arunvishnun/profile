@@ -1,26 +1,30 @@
 [
     {
-      "skill":"Web Technologies:  JavaScript, Ajax, XML, JSON, JSP Object oriented JavaScript, HTML 4 & 5, CSS 2 &3, Bootstrap"
+      "key": "Web Technologies",
+      "value": "JavaScript, NodeJS, AngularJS, Ajax, XML, JSON, JSP, Object oriented JavaScript, HTML5, CSS3, Bootstrap, jQuery, EXT JS"
     },
     {
-      "skill":"Frameworks:  jQuery, EXT JS, Zend, Codeignitor"
+      "key": "RDBMS",
+      "value": "MySQL"
     },
     {
-      "skill":"RDBMS:  MySQL"
+      "key": "Languages",
+      "value": "PHP/Zend, Java, JSP"
     },
     {
-      "skill":"Languages:  PHP, Java, JSP"
+      "key":"Web/App Servers",
+      "value": "Apache 2.x, Tomcat 5.x, Weblogic"
     },
     {
-      "skill":"Web/App Servers:  Apache 2.x, Tomcat 5.x, Weblogic"
+      "key":"Operating System",
+      "value": "Windows, Mac, Unix"
     },
     {
-      "skill":"Operating System: Windows, UNIX"
+      "key":"Version Control Systems",
+      "value": "Perforce, SVN, GIT"
     },
     {
-      "skill":"Tools& Utilities:  Eclipse, SSH Tectia client, Putty, WIN SCP, FireZilla, Maven, Memcache, Atlassian tools – Wiki, Jira, Crusible, Fisheye"
-    },
-    {
-      "skill":"Version Systems:  Perforce, SVN, GIT."
+      "key":"Tools& Utilities",
+      "value": "Eclipse, SSH Tectia client, Putty, WIN SCP, FireZilla, Maven, Memcache, Atlassian tools – Wiki, Jira, Crusible, Fisheye"
     }
   ]

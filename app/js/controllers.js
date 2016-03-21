@@ -21,10 +21,6 @@ profileApp.controller('IndexController', function($scope, $http) {
     $scope.certification = data;
   });
 
-  $http.get('data/certification.json').success(function(data) {
-    $scope.certification = data;
-  });
-
   $http.get('data/education.json').success(function(data) {
     $scope.education = data;
   });

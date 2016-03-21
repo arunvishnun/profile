@@ -25,35 +25,111 @@
             },
             {
               "description": "Perform peer code review."
+            },
+            {
+              "description": "Guiding offshore/near shore team with technical knowledge"
+            },
+            {
+              "description": "Creating Proof of concepts for new ideas"
+            },
+            {
+              "description": "Coordinating with the offshore team members"
+            },
+            {
+              "description": "Lead technical discussions with team members"
+            },
+            {
+              "description": "Sprint planning, pre-planning activities."
+            },
+            {
+              "description": "Running sprint retrospectives daily stand up meetings /scrum meetings."
+            },
+            {
+              "description": "Sprint Demos - Presenting major enhancements/changes to business and other teams."
+            },
+            {
+              "description": "Implement software change requests (CRs) to deploy new features and defect fixes into production environment."
+            },
+            {
+              "description": "Reporting the project status, defects reported and comments on the project development to the Accenture quality leads and also to the Accenture project manager at onsite/offshore."
             }
         ]
     },
     {
         "company":"Accenture",
-        "startDate":"October 2015",
-        "endDate":"Present",
+        "startDate":"September 2014",
+        "endDate":"September 2015",
         "assignedRole":"Senior Software Engineer",
-        "project": "Walt Disney Parks and Resorts",
-        "client":"Walt Disney Co.",
-        "roleSummary": "Lead one of the studios that maintain customer-facing applications for Various Parks and Resorts of the Company. ",
+        "project": "SDC Metrics – Web analytics",
+        "client":"AT&T",
+        "roleSummary": "The primary application used by the Business to get valuable insights about different application in the enterprise.  The application provides details about visitors to application and enables bussiness to generate reports in graphical/excel formats. The application uses Piwik an opensource PHP application.",
         "roleDescription":[
+
             {
-              "description": "Technical lead for a team of 4 to 5 members." 
+              "description": "Onshore coordinator and Lead a 4 member team."
             },
             {
-              "description": "Maintaining various customers facing applications and developing new features for the same. " 
+              "description": "Customize the Piwik web Application with HTML5, CSS3, JSON, jQuery and PHP to suit enterprise needs." 
             },
             {
-              "description": "Analyzing business requirements." 
+              "description": "Create Plugins for Piwik based on business requirement to create reports." 
             },
             {
-              "description": "Estimating modules/enhancements." 
+              "description": "Code reviews." 
             },
             {
-              "description": "Development environment setup" 
+              "description": "Developing SSO Login for the application." 
             },
             {
-              "description": "Perform peer code review."
+              "description": "Support QA activities such as bug fixes."
+            },
+            {
+              "description": "Daily scrum with off-shore."
+            },
+            {
+              "description": "Requirement gathering/Discussions/scrum calls and discuss progress of the tasks."
+            }
+        ]
+    },
+    {
+        "company":"Accenture",
+        "startDate":"June 2013",
+        "endDate":"August 2014",
+        "assignedRole":"Senior Software Engineer",
+        "project": "Engage Modernization",
+        "client":"Apple Computers Inc",
+        "roleSummary": "The primary application used by the Business to Develop relationships with Companies and contacts. The web application interacts with Integration Broker through web services for information exchange. Fluid UI is designed using bootstrap scaffolding. The application handles a lot of tabular data and it uses jquery datatable for the same.",
+        "roleDescription":[
+
+            {
+              "description": "Work as UI tech lead for a small team of UI developers."
+            },
+            {
+              "description": "Implement the Web Application with HTML5, CSS3, JSON, jQuery and Java/ Spring." 
+            },
+            {
+              "description": "Develop and maintain MEAN stack –MongoDB, Express AngularJS, Node application." 
+            },
+            {
+              "description": "Update and perform unit-test, if applicable" 
+            },
+            {
+              "description": "Code reviews using crucible" 
+            },
+            {
+              "description": "Participate in the full development life-cycle: analyze, design, implement, test"
+            },
+            {
+              "description": "Daily scrum with off-shore."
+            },
+            {
+              "description": "Support QA activities such as bug fixes."
+            },
+            {
+              "description": "Turning mockups into pixel-perfect HTML with photo editing tools and create well-organized CSS."
+            },
+            {
+              "description": "Requirement gathering/Discussions/scrum calls and discusses progress of the tasks."
             }
         ]
     }

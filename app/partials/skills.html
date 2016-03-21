@@ -3,8 +3,10 @@
 </div>
 
 <div class="sectionContent">
-<ul class="keySkills">
-  <li ng-repeat="skill in skills">{{skill.skill}}</li>
-</ul>
+	<article>
+		<ul class="keySkills">
+		  <li ng-repeat="skill in skills"><b>{{skill.key}}</b>{{skill.value}}</li>
+		</ul>
+	</article>
 </div>
 <div class="clear"></div>

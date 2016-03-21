@@ -1,12 +1,12 @@
 [
     {
-      "certificationName":"Zend PHP 5.3",
+      "name":"Zend PHP 5.3",
       "description":"is industry-wide standard that recognizes expertise in PHP skill.",
-      "dateCertified":""
+      "date":""
     },
     {
-      "certificationName":"ACN-Agile Foundation Level Certification",
+      "name":"ACN-Agile Foundation Level Certification",
       "description":"is a recognition of hands-on Agile delivery expertise in Accenture",
-      "dateCertified":""
+      "date":""
     }
   ]
