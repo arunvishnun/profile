@@ -1,7 +1,8 @@
-[
+{
+  "skills": [
     {
       "key": "Web Technologies",
-      "value": "JavaScript, NodeJS, AngularJS, Ajax, XML, JSON, JSP, Object oriented JavaScript, HTML5, CSS3, Bootstrap, jQuery, EXT JS"
+      "value": "JavaScript, NodeJS, AngularJS, Ajax, XML, JSON, JSP, Object oriented JavaScript, HTML5, CSS3, Bootstrap, jQuery, EXT JS, Select2"
     },
     {
       "key": "RDBMS",
@@ -28,3 +29,4 @@
       "value": "Eclipse, SSH Tectia client, Putty, WIN SCP, FireZilla, Maven, Memcache, Atlassian tools – Wiki, Jira, Crusible, Fisheye"
     }
   ]
+}

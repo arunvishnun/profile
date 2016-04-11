@@ -3,13 +3,15 @@
 /* Controllers */
 var profileApp = angular.module('profileApp', []);
 
-profileApp.controller('IndexController', function($scope, $http) {
-
-  $http.get('data/personalDetails.json').success(function(data) {
-    $scope.personalDetails = data;
+profileApp.controller('IndexController', ['$scope','$http', function($scope, $http) {
+  console.log("hello from controller");
+  $http.get('/personalDetails').success(function(data) {
+      console.log("Received personalDetails from server." + data);
+      $scope.personalDetails = data;
   });
 
-  $http.get('data/professionalSummary.json').success(function(data) {
+  $http.get('/professionalSummary').success(function(data) {
+    console.log("Received professionalSummary from server.");
     $scope.professionalSummary = data;
   });
 
@@ -28,4 +30,4 @@ profileApp.controller('IndexController', function($scope, $http) {
   $http.get('data/skills.json').success(function(data) {
     $scope.skills = data;
   });
-});
+}]);
